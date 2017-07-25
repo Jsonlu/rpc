@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":gRPC-Demo" external.linked.project.path="$MODULE_DIR$/../../../gRPC-Demo" external.root.project.path="$MODULE_DIR$/../../.." external.system.id="GRADLE" external.system.module.group="t3" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../gRPC-Demo">
+      <excludeFolder url="file://$MODULE_DIR$/../../../gRPC-Demo/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../gRPC-Demo/build" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

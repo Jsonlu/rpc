@@ -1,0 +1,6 @@
+
+description = 'dubbo-registry-simple'
+dependencies {
+  compile project(':dubbo')
+    compile group: 'org.mortbay.jetty', name: 'jetty', version:'6.1.26'
+}

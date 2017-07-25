@@ -1,0 +1,15 @@
+
+description = 'dubbo-config-spring'
+dependencies {
+  compile project(':dubbo-config:dubbo-config-api')
+    compile group: 'org.springframework', name: 'spring-beans', version:'3.2.16.RELEASE'
+    compile group: 'org.springframework', name: 'spring-context', version:'3.2.16.RELEASE'
+  compile project(':dubbo-rpc:dubbo-rpc-injvm')
+  testCompile project(':dubbo-registry:dubbo-registry-default')
+  testCompile project(':dubbo-monitor:dubbo-monitor-default')
+  testCompile project(':dubbo-rpc:dubbo-rpc-default')
+  testCompile project(':dubbo-rpc:dubbo-rpc-rmi')
+  testCompile project(':dubbo-remoting:dubbo-remoting-netty')
+    testCompile group: 'javax.validation', name: 'validation-api', version:'1.0.0.GA'
+    testCompile group: 'org.hibernate', name: 'hibernate-validator', version:'4.2.0.Final'
+}

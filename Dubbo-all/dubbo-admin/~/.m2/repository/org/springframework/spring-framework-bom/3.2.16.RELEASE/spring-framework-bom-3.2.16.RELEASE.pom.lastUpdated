@@ -1,0 +1,5 @@
+#NOTE: This is an internal implementation file, its format can be changed without prior notice.
+#Sun Jul 23 23:26:16 CST 2017
+http\://repo.maven.apache.org/maven2/.lastUpdated=1500823576765
+http\://192.168.8.238/nexus/repository/maven-center/.error=Could not transfer artifact org.springframework\:spring-framework-bom\:pom\:3.2.16.RELEASE from/to Sumpay (http\://192.168.8.238/nexus/repository/maven-center/)\: Connect to 192.168.8.238\:80 [/192.168.8.238] failed\: Operation timed out
+default-http\://192.168.8.238/nexus/repository/maven-center/.lastUpdated=1500807025119

@@ -1,0 +1,8 @@
+
+description = 'dubbo-rpc-http'
+dependencies {
+  compile project(':dubbo-rpc:dubbo-rpc-api')
+  compile project(':dubbo-remoting:dubbo-remoting-http')
+    compile group: 'org.springframework', name: 'spring-context', version:'3.2.16.RELEASE'
+    compile group: 'org.springframework', name: 'spring-web', version:'3.2.16.RELEASE'
+}

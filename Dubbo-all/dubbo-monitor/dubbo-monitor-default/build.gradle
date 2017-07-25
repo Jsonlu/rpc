@@ -1,0 +1,7 @@
+
+description = 'dubbo-monitor-default'
+dependencies {
+  compile project(':dubbo-monitor:dubbo-monitor-api')
+  testCompile project(':dubbo-rpc:dubbo-rpc-default')
+  testCompile project(':dubbo-remoting:dubbo-remoting-netty')
+}

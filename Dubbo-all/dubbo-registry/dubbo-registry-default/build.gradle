@@ -1,0 +1,9 @@
+
+description = 'dubbo-registry-default'
+dependencies {
+  compile project(':dubbo-registry:dubbo-registry-api')
+  testCompile project(':dubbo-rpc:dubbo-rpc-default')
+  testCompile project(':dubbo-rpc:dubbo-rpc-injvm')
+  testCompile project(':dubbo-remoting:dubbo-remoting-netty')
+    testCompile group: 'org.apache.bsf', name: 'bsf-api', version:'3.1'
+}

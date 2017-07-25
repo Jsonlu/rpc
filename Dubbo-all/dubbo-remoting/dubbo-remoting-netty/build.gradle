@@ -1,0 +1,6 @@
+
+description = 'dubbo-remoting-netty'
+dependencies {
+  compile project(':dubbo-remoting:dubbo-remoting-api')
+    compile group: 'org.jboss.netty', name: 'netty', version:'3.2.5.Final'
+}

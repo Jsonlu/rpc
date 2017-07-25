@@ -1,0 +1,12 @@
+
+description = 'dubbo-rpc-thrift'
+dependencies {
+  compile project(':dubbo-rpc:dubbo-rpc-api')
+  compile project(':dubbo-rpc:dubbo-rpc-default')
+  compile project(':dubbo-remoting:dubbo-remoting-api')
+  compile project(':dubbo-remoting:dubbo-remoting-netty')
+    compile group: 'org.apache.thrift', name: 'libthrift', version:'0.8.0'
+    compile group: 'org.springframework', name: 'spring-context', version:'3.2.16.RELEASE'
+  testCompile project(':dubbo-config:dubbo-config-spring')
+  testCompile project(':dubbo-registry:dubbo-registry-multicast')
+}

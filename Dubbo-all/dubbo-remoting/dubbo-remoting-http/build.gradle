@@ -1,0 +1,6 @@
+
+description = 'dubbo-remoting-http'
+dependencies {
+  compile project(':dubbo-common')
+    compile group: 'org.mortbay.jetty', name: 'jetty', version:'6.1.26'
+}

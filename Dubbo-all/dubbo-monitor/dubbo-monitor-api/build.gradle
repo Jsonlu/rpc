@@ -1,0 +1,5 @@
+
+description = 'dubbo-monitor-api'
+dependencies {
+  compile project(':dubbo-rpc:dubbo-rpc-api')
+}

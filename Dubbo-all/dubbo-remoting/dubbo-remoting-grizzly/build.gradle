@@ -1,0 +1,6 @@
+
+description = 'dubbo-remoting-grizzly'
+dependencies {
+  compile project(':dubbo-remoting:dubbo-remoting-api')
+    compile group: 'org.glassfish.grizzly', name: 'grizzly-core', version:'2.1.4'
+}

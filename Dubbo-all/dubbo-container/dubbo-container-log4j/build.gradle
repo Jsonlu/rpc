@@ -1,0 +1,5 @@
+
+description = 'dubbo-container-log4j'
+dependencies {
+  compile project(':dubbo-container:dubbo-container-api')
+}

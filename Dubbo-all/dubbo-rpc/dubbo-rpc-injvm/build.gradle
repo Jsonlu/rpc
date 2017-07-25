@@ -1,0 +1,5 @@
+
+description = 'dubbo-rpc-injvm'
+dependencies {
+  compile project(':dubbo-rpc:dubbo-rpc-api')
+}

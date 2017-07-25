@@ -1,0 +1,5 @@
+
+description = 'dubbo-remoting-p2p'
+dependencies {
+  compile project(':dubbo-remoting:dubbo-remoting-api')
+}

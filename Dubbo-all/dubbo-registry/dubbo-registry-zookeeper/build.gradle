@@ -1,0 +1,6 @@
+
+description = 'dubbo-registry-zookeeper'
+dependencies {
+  compile project(':dubbo-registry:dubbo-registry-api')
+  compile project(':dubbo-remoting:dubbo-remoting-zookeeper')
+}

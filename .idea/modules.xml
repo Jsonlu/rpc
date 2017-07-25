@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Base/Base.iml" filepath="$PROJECT_DIR$/.idea/modules/Base/Base.iml" group="Base" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Excel-Demo/Excel-Demo.iml" filepath="$PROJECT_DIR$/.idea/modules/Excel-Demo/Excel-Demo.iml" group="Excel-Demo" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/HtmlUnit-Demo/HtmlUnit-Demo.iml" filepath="$PROJECT_DIR$/.idea/modules/HtmlUnit-Demo/HtmlUnit-Demo.iml" group="HtmlUnit-Demo" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/JPA-Demo/JPA-Demo.iml" filepath="$PROJECT_DIR$/.idea/modules/JPA-Demo/JPA-Demo.iml" group="JPA-Demo" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Jersey-Demo/Jersey-Demo.iml" filepath="$PROJECT_DIR$/.idea/modules/Jersey-Demo/Jersey-Demo.iml" group="Jersey-Demo" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Pay-Demo/Pay-Demo.iml" filepath="$PROJECT_DIR$/.idea/modules/Pay-Demo/Pay-Demo.iml" group="Pay-Demo" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SSM-Demo/SSM-Demo.iml" filepath="$PROJECT_DIR$/.idea/modules/SSM-Demo/SSM-Demo.iml" group="SSM-Demo" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Spring-Boot-Demo/Spring-Boot-Demo.iml" filepath="$PROJECT_DIR$/.idea/modules/Spring-Boot-Demo/Spring-Boot-Demo.iml" group="Spring-Boot-Demo" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Spring-Data-Redis/Spring-Data-Redis.iml" filepath="$PROJECT_DIR$/.idea/modules/Spring-Data-Redis/Spring-Data-Redis.iml" group="Spring-Data-Redis" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Util-Demo/Util-Demo.iml" filepath="$PROJECT_DIR$/.idea/modules/Util-Demo/Util-Demo.iml" group="Util-Demo" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gRPC-Demo/gRPC-Demo.iml" filepath="$PROJECT_DIR$/.idea/modules/gRPC-Demo/gRPC-Demo.iml" group="gRPC-Demo" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/jwt/jwt.iml" filepath="$PROJECT_DIR$/.idea/modules/jwt/jwt.iml" group="jwt" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/t3.iml" filepath="$PROJECT_DIR$/.idea/modules/t3.iml" />
+    </modules>
+  </component>
+</project>

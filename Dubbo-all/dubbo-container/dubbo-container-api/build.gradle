@@ -1,0 +1,6 @@
+
+description = 'dubbo-container-api'
+dependencies {
+  compile project(':dubbo-common')
+    compile group: 'org.mortbay.jetty', name: 'jetty', version:'6.1.26'
+}

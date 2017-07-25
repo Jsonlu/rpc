@@ -1,0 +1,6 @@
+
+description = 'dubbo-container-spring'
+dependencies {
+  compile project(':dubbo-container:dubbo-container-api')
+    compile group: 'org.springframework', name: 'spring-context', version:'3.2.16.RELEASE'
+}

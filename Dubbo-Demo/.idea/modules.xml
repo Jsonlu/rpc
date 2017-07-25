@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Dubbo-Demo.iml" filepath="$PROJECT_DIR$/.idea/modules/Dubbo-Demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Service-Consumer/Service-Consumer.iml" filepath="$PROJECT_DIR$/.idea/modules/Service-Consumer/Service-Consumer.iml" group="Service-Consumer" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Service-Consumer/Service-Consumer_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Service-Consumer/Service-Consumer_main.iml" group="Service-Consumer" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Service-Consumer/Service-Consumer_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Service-Consumer/Service-Consumer_test.iml" group="Service-Consumer" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Service-Provider/Service-Provider.iml" filepath="$PROJECT_DIR$/.idea/modules/Service-Provider/Service-Provider.iml" group="Service-Provider" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Service-Provider/Service-Provider_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Service-Provider/Service-Provider_main.iml" group="Service-Provider" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Service-Provider/Service-Provider_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Service-Provider/Service-Provider_test.iml" group="Service-Provider" />
+    </modules>
+  </component>
+</project>

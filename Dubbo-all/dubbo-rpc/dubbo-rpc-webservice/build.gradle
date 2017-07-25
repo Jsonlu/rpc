@@ -1,0 +1,9 @@
+
+description = 'dubbo-rpc-webservice'
+dependencies {
+  compile project(':dubbo-rpc:dubbo-rpc-api')
+  compile project(':dubbo-remoting:dubbo-remoting-http')
+    compile group: 'org.apache.cxf', name: 'cxf-rt-frontend-simple', version:'2.6.1'
+    compile group: 'org.apache.cxf', name: 'cxf-rt-transports-http', version:'2.6.1'
+    compile group: 'org.springframework', name: 'spring-context', version:'3.2.16.RELEASE'
+}

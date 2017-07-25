@@ -1,0 +1,5 @@
+
+description = 'dubbo-test-compatibility'
+dependencies {
+  compile project(':dubbo')
+}

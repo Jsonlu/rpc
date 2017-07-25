@@ -1,0 +1,28 @@
+
+description = 'dubbo-common'
+dependencies {
+    compile group: 'log4j', name: 'log4j', version:'1.2.16'
+    compile group: 'org.javassist', name: 'javassist', version:'3.20.0-GA'
+  compile project(':hessian-lite')
+    testCompile group: 'cglib', name: 'cglib-nodep', version:'2.2'
+    compile(group: 'org.slf4j', name: 'slf4j-api', version:'1.7.25') {
+       /* This dependency was originally in the Maven provided scope, but the project was not of type war.
+       This behavior is not yet supported by Gradle, so this dependency has been converted to a compile dependency.
+       Please review and delete this closure when resolved. */
+    }
+    compile(group: 'commons-logging', name: 'commons-logging-api', version:'1.1') {
+       /* This dependency was originally in the Maven provided scope, but the project was not of type war.
+       This behavior is not yet supported by Gradle, so this dependency has been converted to a compile dependency.
+       Please review and delete this closure when resolved. */
+    }
+    compile(group: 'com.alibaba', name: 'fastjson', version:'1.2.31') {
+       /* This dependency was originally in the Maven provided scope, but the project was not of type war.
+       This behavior is not yet supported by Gradle, so this dependency has been converted to a compile dependency.
+       Please review and delete this closure when resolved. */
+    }
+    compile(group: 'org.jvnet.sorcerer', name: 'sorcerer-javac', version:'0.8') {
+       /* This dependency was originally in the Maven provided scope, but the project was not of type war.
+       This behavior is not yet supported by Gradle, so this dependency has been converted to a compile dependency.
+       Please review and delete this closure when resolved. */
+    }
+}

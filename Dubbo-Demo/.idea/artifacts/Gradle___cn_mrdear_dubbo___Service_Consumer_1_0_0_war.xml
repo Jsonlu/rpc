@@ -1,0 +1,20 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Gradle : cn.mrdear.dubbo : Service-Consumer-1.0.0.war">
+    <output-path>$PROJECT_DIR$/build/classes/artifacts/Service-Consumer</output-path>
+    <properties id="gradle-properties">
+      <options external-project-path="$PROJECT_DIR$" />
+    </properties>
+    <root id="archive" name="Service-Consumer-1.0.0.war">
+      <element id="javaee-facet-resources" facet="Service-Consumer_main/web/Web Gradle : Service-Consumer-1.0.0.war" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Service-Consumer_main" />
+          <element id="dir-copy" path="$PROJECT_DIR$/Service-Consumer/build/resources/main" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/build/classes/artifacts/Service-Consumer/exploded/Service-Consumer-1.0.0.war/META-INF/MANIFEST.MF" />
+      </element>
+    </root>
+  </artifact>
+</component>

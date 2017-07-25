@@ -1,0 +1,6 @@
+
+description = 'dubbo-rpc-rmi'
+dependencies {
+  compile project(':dubbo-rpc:dubbo-rpc-api')
+    compile group: 'org.springframework', name: 'spring-context', version:'3.2.16.RELEASE'
+}

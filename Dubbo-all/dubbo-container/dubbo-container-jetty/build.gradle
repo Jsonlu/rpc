@@ -1,0 +1,5 @@
+
+description = 'dubbo-container-jetty'
+dependencies {
+  compile project(':dubbo-container:dubbo-container-api')
+}

@@ -1,0 +1,10 @@
+
+description = 'dubbo-rpc-default'
+dependencies {
+  compile project(':dubbo-rpc:dubbo-rpc-api')
+  compile project(':dubbo-remoting:dubbo-remoting-api')
+  compile project(':dubbo-container:dubbo-container-api')
+  testCompile project(':dubbo-remoting:dubbo-remoting-netty')
+  testCompile project(':dubbo-remoting:dubbo-remoting-mina')
+    testCompile group: 'org.apache.mina', name: 'mina-core', version:'1.1.7'
+}

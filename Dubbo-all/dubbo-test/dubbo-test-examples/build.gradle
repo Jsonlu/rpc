@@ -1,0 +1,26 @@
+
+description = 'dubbo-test-examples'
+dependencies {
+  compile project(':dubbo-config:dubbo-config-api')
+  compile project(':dubbo-config:dubbo-config-spring')
+  compile project(':dubbo-remoting:dubbo-remoting-netty')
+  compile project(':dubbo-remoting:dubbo-remoting-mina')
+  compile project(':dubbo-remoting:dubbo-remoting-grizzly')
+  compile project(':dubbo-remoting:dubbo-remoting-p2p')
+  compile project(':dubbo-remoting:dubbo-remoting-http')
+  compile project(':dubbo-rpc:dubbo-rpc-default')
+  compile project(':dubbo-rpc:dubbo-rpc-injvm')
+  compile project(':dubbo-rpc:dubbo-rpc-rmi')
+  compile project(':dubbo-rpc:dubbo-rpc-hessian')
+  compile project(':dubbo-rpc:dubbo-rpc-http')
+  compile project(':dubbo-rpc:dubbo-rpc-webservice')
+  compile project(':dubbo-rpc:dubbo-rpc-thrift')
+  compile project(':dubbo-rpc:dubbo-rpc-memcached')
+  compile project(':dubbo-rpc:dubbo-rpc-redis')
+  compile project(':dubbo-registry:dubbo-registry-default')
+  compile project(':dubbo-registry:dubbo-registry-multicast')
+  compile project(':dubbo-registry:dubbo-registry-zookeeper')
+  compile project(':dubbo-monitor:dubbo-monitor-default')
+    compile group: 'javax.validation', name: 'validation-api', version:'1.0.0.GA'
+    compile group: 'org.hibernate', name: 'hibernate-validator', version:'4.2.0.Final'
+}

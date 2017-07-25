@@ -1,0 +1,116 @@
+rootProject.name = 'dubbo-parent'
+include ':hessian-lite'
+include ':dubbo-common'
+include ':dubbo-container:dubbo-container-api'
+include ':dubbo-container:dubbo-container-spring'
+include ':dubbo-container:dubbo-container-jetty'
+include ':dubbo-container:dubbo-container-log4j'
+include ':dubbo-container:dubbo-container-logback'
+include ':dubbo-container'
+include ':dubbo-remoting:dubbo-remoting-api'
+include ':dubbo-remoting:dubbo-remoting-netty'
+include ':dubbo-remoting:dubbo-remoting-mina'
+include ':dubbo-remoting:dubbo-remoting-grizzly'
+include ':dubbo-remoting:dubbo-remoting-p2p'
+include ':dubbo-remoting:dubbo-remoting-http'
+include ':dubbo-remoting:dubbo-remoting-zookeeper'
+include ':dubbo-remoting'
+include ':dubbo-rpc:dubbo-rpc-api'
+include ':dubbo-rpc:dubbo-rpc-default'
+include ':dubbo-rpc:dubbo-rpc-injvm'
+include ':dubbo-rpc:dubbo-rpc-rmi'
+include ':dubbo-rpc:dubbo-rpc-hessian'
+include ':dubbo-rpc:dubbo-rpc-http'
+include ':dubbo-rpc:dubbo-rpc-webservice'
+include ':dubbo-rpc:dubbo-rpc-thrift'
+include ':dubbo-rpc:dubbo-rpc-memcached'
+include ':dubbo-rpc:dubbo-rpc-redis'
+include ':dubbo-rpc'
+include ':dubbo-filter:dubbo-filter-cache'
+include ':dubbo-filter:dubbo-filter-validation'
+include ':dubbo-filter'
+include ':dubbo-cluster'
+include ':dubbo-registry:dubbo-registry-api'
+include ':dubbo-registry:dubbo-registry-default'
+include ':dubbo-registry:dubbo-registry-multicast'
+include ':dubbo-registry:dubbo-registry-zookeeper'
+include ':dubbo-registry:dubbo-registry-redis'
+include ':dubbo-registry'
+include ':dubbo-monitor:dubbo-monitor-api'
+include ':dubbo-monitor:dubbo-monitor-default'
+include ':dubbo-monitor'
+include ':dubbo-config:dubbo-config-api'
+include ':dubbo-config:dubbo-config-spring'
+include ':dubbo-config'
+include ':dubbo'
+include ':dubbo-simple:dubbo-registry-simple'
+include ':dubbo-simple:dubbo-monitor-simple'
+include ':dubbo-simple'
+include ':dubbo-admin'
+include ':dubbo-demo:dubbo-demo-api'
+include ':dubbo-demo:dubbo-demo-provider'
+include ':dubbo-demo:dubbo-demo-consumer'
+include ':dubbo-demo'
+include ':dubbo-test:dubbo-test-benchmark'
+include ':dubbo-test:dubbo-test-compatibility'
+include ':dubbo-test:dubbo-test-integration'
+include ':dubbo-test:dubbo-test-examples'
+include ':dubbo-test'
+
+project(':hessian-lite').projectDir = "$rootDir/hessian-lite" as File
+project(':dubbo-common').projectDir = "$rootDir/dubbo-common" as File
+project(':dubbo-container:dubbo-container-api').projectDir = "$rootDir/dubbo-container/dubbo-container-api" as File
+project(':dubbo-container:dubbo-container-spring').projectDir = "$rootDir/dubbo-container/dubbo-container-spring" as File
+project(':dubbo-container:dubbo-container-jetty').projectDir = "$rootDir/dubbo-container/dubbo-container-jetty" as File
+project(':dubbo-container:dubbo-container-log4j').projectDir = "$rootDir/dubbo-container/dubbo-container-log4j" as File
+project(':dubbo-container:dubbo-container-logback').projectDir = "$rootDir/dubbo-container/dubbo-container-logback" as File
+project(':dubbo-container').projectDir = "$rootDir/dubbo-container" as File
+project(':dubbo-remoting:dubbo-remoting-api').projectDir = "$rootDir/dubbo-remoting/dubbo-remoting-api" as File
+project(':dubbo-remoting:dubbo-remoting-netty').projectDir = "$rootDir/dubbo-remoting/dubbo-remoting-netty" as File
+project(':dubbo-remoting:dubbo-remoting-mina').projectDir = "$rootDir/dubbo-remoting/dubbo-remoting-mina" as File
+project(':dubbo-remoting:dubbo-remoting-grizzly').projectDir = "$rootDir/dubbo-remoting/dubbo-remoting-grizzly" as File
+project(':dubbo-remoting:dubbo-remoting-p2p').projectDir = "$rootDir/dubbo-remoting/dubbo-remoting-p2p" as File
+project(':dubbo-remoting:dubbo-remoting-http').projectDir = "$rootDir/dubbo-remoting/dubbo-remoting-http" as File
+project(':dubbo-remoting:dubbo-remoting-zookeeper').projectDir = "$rootDir/dubbo-remoting/dubbo-remoting-zookeeper" as File
+project(':dubbo-remoting').projectDir = "$rootDir/dubbo-remoting" as File
+project(':dubbo-rpc:dubbo-rpc-api').projectDir = "$rootDir/dubbo-rpc/dubbo-rpc-api" as File
+project(':dubbo-rpc:dubbo-rpc-default').projectDir = "$rootDir/dubbo-rpc/dubbo-rpc-default" as File
+project(':dubbo-rpc:dubbo-rpc-injvm').projectDir = "$rootDir/dubbo-rpc/dubbo-rpc-injvm" as File
+project(':dubbo-rpc:dubbo-rpc-rmi').projectDir = "$rootDir/dubbo-rpc/dubbo-rpc-rmi" as File
+project(':dubbo-rpc:dubbo-rpc-hessian').projectDir = "$rootDir/dubbo-rpc/dubbo-rpc-hessian" as File
+project(':dubbo-rpc:dubbo-rpc-http').projectDir = "$rootDir/dubbo-rpc/dubbo-rpc-http" as File
+project(':dubbo-rpc:dubbo-rpc-webservice').projectDir = "$rootDir/dubbo-rpc/dubbo-rpc-webservice" as File
+project(':dubbo-rpc:dubbo-rpc-thrift').projectDir = "$rootDir/dubbo-rpc/dubbo-rpc-thrift" as File
+project(':dubbo-rpc:dubbo-rpc-memcached').projectDir = "$rootDir/dubbo-rpc/dubbo-rpc-memcached" as File
+project(':dubbo-rpc:dubbo-rpc-redis').projectDir = "$rootDir/dubbo-rpc/dubbo-rpc-redis" as File
+project(':dubbo-rpc').projectDir = "$rootDir/dubbo-rpc" as File
+project(':dubbo-filter:dubbo-filter-cache').projectDir = "$rootDir/dubbo-filter/dubbo-filter-cache" as File
+project(':dubbo-filter:dubbo-filter-validation').projectDir = "$rootDir/dubbo-filter/dubbo-filter-validation" as File
+project(':dubbo-filter').projectDir = "$rootDir/dubbo-filter" as File
+project(':dubbo-cluster').projectDir = "$rootDir/dubbo-cluster" as File
+project(':dubbo-registry:dubbo-registry-api').projectDir = "$rootDir/dubbo-registry/dubbo-registry-api" as File
+project(':dubbo-registry:dubbo-registry-default').projectDir = "$rootDir/dubbo-registry/dubbo-registry-default" as File
+project(':dubbo-registry:dubbo-registry-multicast').projectDir = "$rootDir/dubbo-registry/dubbo-registry-multicast" as File
+project(':dubbo-registry:dubbo-registry-zookeeper').projectDir = "$rootDir/dubbo-registry/dubbo-registry-zookeeper" as File
+project(':dubbo-registry:dubbo-registry-redis').projectDir = "$rootDir/dubbo-registry/dubbo-registry-redis" as File
+project(':dubbo-registry').projectDir = "$rootDir/dubbo-registry" as File
+project(':dubbo-monitor:dubbo-monitor-api').projectDir = "$rootDir/dubbo-monitor/dubbo-monitor-api" as File
+project(':dubbo-monitor:dubbo-monitor-default').projectDir = "$rootDir/dubbo-monitor/dubbo-monitor-default" as File
+project(':dubbo-monitor').projectDir = "$rootDir/dubbo-monitor" as File
+project(':dubbo-config:dubbo-config-api').projectDir = "$rootDir/dubbo-config/dubbo-config-api" as File
+project(':dubbo-config:dubbo-config-spring').projectDir = "$rootDir/dubbo-config/dubbo-config-spring" as File
+project(':dubbo-config').projectDir = "$rootDir/dubbo-config" as File
+project(':dubbo').projectDir = "$rootDir/dubbo" as File
+project(':dubbo-simple:dubbo-registry-simple').projectDir = "$rootDir/dubbo-simple/dubbo-registry-simple" as File
+project(':dubbo-simple:dubbo-monitor-simple').projectDir = "$rootDir/dubbo-simple/dubbo-monitor-simple" as File
+project(':dubbo-simple').projectDir = "$rootDir/dubbo-simple" as File
+project(':dubbo-admin').projectDir = "$rootDir/dubbo-admin" as File
+project(':dubbo-demo:dubbo-demo-api').projectDir = "$rootDir/dubbo-demo/dubbo-demo-api" as File
+project(':dubbo-demo:dubbo-demo-provider').projectDir = "$rootDir/dubbo-demo/dubbo-demo-provider" as File
+project(':dubbo-demo:dubbo-demo-consumer').projectDir = "$rootDir/dubbo-demo/dubbo-demo-consumer" as File
+project(':dubbo-demo').projectDir = "$rootDir/dubbo-demo" as File
+project(':dubbo-test:dubbo-test-benchmark').projectDir = "$rootDir/dubbo-test/dubbo-test-benchmark" as File
+project(':dubbo-test:dubbo-test-compatibility').projectDir = "$rootDir/dubbo-test/dubbo-test-compatibility" as File
+project(':dubbo-test:dubbo-test-integration').projectDir = "$rootDir/dubbo-test/dubbo-test-integration" as File
+project(':dubbo-test:dubbo-test-examples').projectDir = "$rootDir/dubbo-test/dubbo-test-examples" as File
+project(':dubbo-test').projectDir = "$rootDir/dubbo-test" as File
